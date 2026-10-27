@@ -1,0 +1,19 @@
+# TouchDesigner numbered saves and backups
+Backup/
+*.[0-9].toe
+*.[0-9][0-9].toe
+*.[0-9][0-9][0-9].toe
+*.toe.bak
+CrashAutoSave*
+
+# Generated on first launch (see src/python/soundbank.py)
+audio/
+
+# Reference footage (not ours to redistribute)
+*.mp4
+*.mov
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
